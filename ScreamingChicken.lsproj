@@ -3,7 +3,7 @@
     "document_id": "CxrqwEBGzu7dS46qVvo9",
     "original_document_id": "CxrqwEBGzu7dS46qVvo9",
     "version": "27",
-    "lastChanged": "1616964692472",
+    "lastChanged": "1616968284775",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -30,6 +30,9 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
+                    [
+                        "Behavior"
+                    ],
                     [
                         "Echopark"
                     ],
@@ -117,6 +120,9 @@
                         "Screaming_Rubber_Chicken_Toy",
                         "textures",
                         "white"
+                    ],
+                    [
+                        "chickensound"
                     ]
                 ]
             ]
@@ -325,6 +331,22 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "31",
+                    "uid": "1616965686577213:704926",
+                    "name": "Files\/File64.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "34",
+                    "uid": "1616967958285505:991842",
+                    "name": "Files\/File67.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -387,7 +409,8 @@
                 "7": "1616960760792169:8995",
                 "8": "1616963869279046:435781",
                 "9": "1616963869292671:435843",
-                "10": "1616963869311150:435982"
+                "10": "1616963869311150:435982",
+                "11": "1616966878710720:859422"
             }
         },
         "LayerComponent": {
@@ -609,6 +632,14 @@
                 {
                     "k": "63",
                     "v": "Files\/File63.jpg"
+                },
+                {
+                    "k": "64",
+                    "v": "Files\/File64.js"
+                },
+                {
+                    "k": "67",
+                    "v": "Files\/File67.mp3"
                 }
             ]
         },
@@ -684,6 +715,14 @@
                     {
                         "k": "1042",
                         "v": "..\/AdditionalFiles\/Screaming_Rubber_Chicken_Toy\/textures\/ChromaGreen.jpg"
+                    },
+                    {
+                        "k": "1043",
+                        "v": "Behavior.js"
+                    },
+                    {
+                        "k": "1046",
+                        "v": "chickensound.mp3"
                     }
                 ],
                 "hashes": [
@@ -766,15 +805,45 @@
                     {
                         "k": "1042",
                         "v": "e4411e47b893e4eaae6628bef74bdc6f"
+                    },
+                    {
+                        "k": "1043",
+                        "v": "91c13f7497081d3638dd81f8c7b017fd"
+                    },
+                    {
+                        "k": "1044",
+                        "v": "ef3029bfc3a61158bcbb318e9f7b9089"
+                    },
+                    {
+                        "k": "1045",
+                        "v": "7a02cb0538f7abc89834ccdaa178ca06"
+                    },
+                    {
+                        "k": "1046",
+                        "v": "1ad1408738d6d1caab1b0d83c56a22be"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-03-28T13:42:05",
+                        "lastModified": "2021-03-28T14:45:58",
                         "name": "Public",
-                        "hash": "89396a936cc6964f401f580972c81f29",
+                        "hash": "52e54bd64c4f349f9e46cf47e96de09a",
                         "children": [
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-03-28T14:45:42",
+                                "name": "chickensound.mp3",
+                                "hash": "1ad1408738d6d1caab1b0d83c56a22be",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-03-25T04:12:50",
+                                "name": "Behavior.js",
+                                "hash": "91c13f7497081d3638dd81f8c7b017fd",
+                                "children": ""
+                            },
                             {
                                 "isFolder": "false",
                                 "lastModified": "2020-11-26T05:55:56",
@@ -1147,12 +1216,42 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "name": "Behavior",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "31",
+                        "dependency": "0",
+                        "uid": "1616965686577213:704926",
+                        "fileId": "64",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1043",
+                        "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/Presets\/Scripts\/BehaviorScript.js",
+                        "additional": ""
+                    },
+                    {
+                        "name": "chickensound",
+                        "type": "5",
+                        "subtype": "0",
+                        "resourceId": "34",
+                        "dependency": "0",
+                        "uid": "1616967958285505:991842",
+                        "fileId": "67",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1046",
+                        "source": "\/Users\/ejwessel\/Desktop\/chickensound.mp3",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1616960587057252:235563"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
