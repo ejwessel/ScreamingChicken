@@ -3,7 +3,7 @@
     "document_id": "CxrqwEBGzu7dS46qVvo9",
     "original_document_id": "CxrqwEBGzu7dS46qVvo9",
     "version": "27",
-    "lastChanged": "1616968284775",
+    "lastChanged": "1616969364924",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -30,9 +30,6 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
-                    [
-                        "Behavior"
-                    ],
                     [
                         "Echopark"
                     ],
@@ -70,11 +67,6 @@
                         "Screaming_Rubber_Chicken_Toy",
                         "textures",
                         "Base"
-                    ],
-                    [
-                        "Screaming_Rubber_Chicken_Toy",
-                        "textures",
-                        "ChromaGreen"
                     ],
                     [
                         "Screaming_Rubber_Chicken_Toy",
@@ -119,7 +111,15 @@
                     [
                         "Screaming_Rubber_Chicken_Toy",
                         "textures",
+                        "blue"
+                    ],
+                    [
+                        "Screaming_Rubber_Chicken_Toy",
+                        "textures",
                         "white"
+                    ],
+                    [
+                        "SoundEffect"
                     ],
                     [
                         "chickensound"
@@ -133,12 +133,12 @@
             ]
         },
         "MetaInfoUIComponent": {
-            "icon_hash": "56814dbefc6c60009fe6066406087653",
+            "icon_hash": "f3d64ce20234d77381fe82dc0b9452ea",
             "icon_path": "icon.png",
             "hints": [
-                ""
+                "lens_hint_open_your_mouth"
             ],
-            "lens": "Screaming Chicken",
+            "lens": "Rubber Chicken",
             "applicability": "3",
             "lens_descriptors": ""
         },
@@ -325,14 +325,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "30",
-                    "uid": "1616964122087470:468245",
-                    "name": "Files\/File62.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "31",
                     "uid": "1616965686577213:704926",
                     "name": "Files\/File64.js",
@@ -344,6 +336,14 @@
                     "resId": "34",
                     "uid": "1616967958285505:991842",
                     "name": "Files\/File67.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "35",
+                    "uid": "1616969014577050:1167397",
+                    "name": "Files\/File68.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -626,20 +626,28 @@
                     "v": "Files\/File61.pvr"
                 },
                 {
-                    "k": "62",
-                    "v": "Files\/File62.jpg"
-                },
-                {
-                    "k": "63",
-                    "v": "Files\/File63.jpg"
-                },
-                {
                     "k": "64",
                     "v": "Files\/File64.js"
                 },
                 {
                     "k": "67",
                     "v": "Files\/File67.mp3"
+                },
+                {
+                    "k": "68",
+                    "v": "Files\/File68.pvr"
+                },
+                {
+                    "k": "69",
+                    "v": "Files\/File69.png"
+                },
+                {
+                    "k": "70",
+                    "v": "Files\/File70.png"
+                },
+                {
+                    "k": "71",
+                    "v": "Files\/File71.pvr"
                 }
             ]
         },
@@ -713,16 +721,16 @@
                         "v": "..\/AdditionalFiles\/Screaming_Rubber_Chicken_Toy\/Materials\/ChickenTexture.lsmat"
                     },
                     {
-                        "k": "1042",
-                        "v": "..\/AdditionalFiles\/Screaming_Rubber_Chicken_Toy\/textures\/ChromaGreen.jpg"
-                    },
-                    {
                         "k": "1043",
-                        "v": "Behavior.js"
+                        "v": "SoundEffect.js"
                     },
                     {
                         "k": "1046",
                         "v": "chickensound.mp3"
+                    },
+                    {
+                        "k": "1047",
+                        "v": "..\/AdditionalFiles\/Screaming_Rubber_Chicken_Toy\/textures\/blue.png"
                     }
                 ],
                 "hashes": [
@@ -821,12 +829,16 @@
                     {
                         "k": "1046",
                         "v": "1ad1408738d6d1caab1b0d83c56a22be"
+                    },
+                    {
+                        "k": "1047",
+                        "v": "a4e9e09b30ac828a96e5e2f01dd9c720"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-03-28T14:45:58",
+                        "lastModified": "2021-03-28T15:03:52",
                         "name": "Public",
                         "hash": "52e54bd64c4f349f9e46cf47e96de09a",
                         "children": [
@@ -839,16 +851,16 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-03-25T04:12:50",
-                                "name": "Behavior.js",
-                                "hash": "91c13f7497081d3638dd81f8c7b017fd",
+                                "lastModified": "2020-11-26T05:55:56",
+                                "name": "Screaming_Rubber_Chicken_Toy.obj",
+                                "hash": "561c06ec34f5a432b17fe63a9e15dab5",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-11-26T05:55:56",
-                                "name": "Screaming_Rubber_Chicken_Toy.obj",
-                                "hash": "561c06ec34f5a432b17fe63a9e15dab5",
+                                "lastModified": "2021-03-25T04:12:50",
+                                "name": "SoundEffect.js",
+                                "hash": "91c13f7497081d3638dd81f8c7b017fd",
                                 "children": ""
                             },
                             {
@@ -1201,16 +1213,16 @@
                                         "additional": ""
                                     },
                                     {
-                                        "name": "ChromaGreen",
+                                        "name": "blue",
                                         "type": "1",
                                         "subtype": "9",
-                                        "resourceId": "30",
+                                        "resourceId": "35",
                                         "dependency": "0",
-                                        "uid": "1616964122087470:468245",
-                                        "fileId": "62",
-                                        "originalId": "63",
-                                        "publicId": "1042",
-                                        "source": "\/Users\/ejwessel\/Desktop\/ChromaGreen.jpg",
+                                        "uid": "1616969014577050:1167397",
+                                        "fileId": "68",
+                                        "originalId": "69",
+                                        "publicId": "1047",
+                                        "source": "\/Users\/ejwessel\/Desktop\/blue.png",
                                         "additional": ""
                                     }
                                 ]
@@ -1218,7 +1230,7 @@
                         ]
                     },
                     {
-                        "name": "Behavior",
+                        "name": "SoundEffect",
                         "type": "4",
                         "subtype": "0",
                         "resourceId": "31",
@@ -1247,11 +1259,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1616960587057252:235563"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
@@ -1547,6 +1555,33 @@
                                     "settings_hash": "2049"
                                 },
                                 "v": "61"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1616969014577050:1167397",
+                    "v": {
+                        "infos": {
+                            "originalSize": "1630",
+                            "compressedSize": "919",
+                            "originalRAM": "1440000",
+                            "compressedRAM": "180000",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "70",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "a4e9e09b30ac828a96e5e2f01dd9c720",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "71"
                             }
                         ]
                     }
